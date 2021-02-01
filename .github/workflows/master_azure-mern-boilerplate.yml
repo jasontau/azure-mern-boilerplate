@@ -32,5 +32,5 @@ jobs:
       with:
         app-name: 'azure-mern-boilerplate'
         slot-name: 'production'
-        publish-profile: ${{ secrets.azureWebAppPublishProfile }}   
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_e7d4c68f3f0249d0aac4ca51e791bfa5 }}
         package: .
